@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptologia/static/css/main.b9d40f2b.css",
+    "main.js": "/cryptologia/static/js/main.701092be.js",
+    "static/js/453.6f496673.chunk.js": "/cryptologia/static/js/453.6f496673.chunk.js",
+    "index.html": "/cryptologia/index.html",
+    "main.b9d40f2b.css.map": "/cryptologia/static/css/main.b9d40f2b.css.map",
+    "main.701092be.js.map": "/cryptologia/static/js/main.701092be.js.map",
+    "453.6f496673.chunk.js.map": "/cryptologia/static/js/453.6f496673.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d40f2b.css",
+    "static/js/main.701092be.js"
+  ]
+}
