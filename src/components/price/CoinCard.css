@@ -1,0 +1,131 @@
+.cards-section {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+    padding: 20px 100px 50px 100px;
+}
+
+.coin-card {
+    padding: 0 20px;
+    height: 350px;
+    max-width: 300px;
+    color: #000;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.coin-card:hover {
+    background-color: #212529;
+    transition: 0.3s ease;
+}
+
+.coin-image {
+    width: 85px;
+    height: 85px;
+    margin: 0.4rem;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card-heading {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.card-symbol {
+    font-size: 18px;
+    color: black;
+}
+
+.card-price {
+    font-size: 18px;
+    padding-top: 1rem;
+    color: black;
+}
+
+.card-market-cap {
+    padding-top: .5rem;
+    color: black;
+    font-size: 18px;
+}
+
+.coin-card:hover .card-heading,
+.coin-card:hover .card-symbol,
+.coin-card:hover .card-price,
+.coin-card:hover .card-market-cap {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.search-input {
+    display: flex;
+    justify-self: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+@media (max-width: 768px) {
+
+    .cards-section {
+        display: flex;
+        flex-direction: column;align-items: center;
+        padding: 10px 40px 40px 40px;
+    }
+
+    .coin-card {
+        height: 220px;
+        /* max-width: 350px; */
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card-symbol {
+        font-size: 18px;
+    }
+
+    .card-heading {
+        font-size: 18px;
+    }
+
+    .card-price {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .card-market-cap {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .bottom-card {
+        gap: 5px;
+    }
+
+    .coin-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .search-input {
+        max-width: 150px;
+    }
+}
